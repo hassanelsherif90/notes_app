@@ -11,7 +11,7 @@ class NotesView extends StatelessWidget {
     return Scaffold(
       body: const NotesViewBody(),
       floatingActionButton: FloatingActionButton(
-        backgroundColor: KPrimaryColor,
+        backgroundColor: kPrimaryColor,
         child: const Icon(Icons.add),
         onPressed: () {
           showModalBottomSheet(
