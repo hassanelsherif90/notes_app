@@ -13,10 +13,7 @@ class CustomAppBar extends StatelessWidget {
       children: [
         Text(title, style: const TextStyle(fontSize: 28)),
         const Spacer(),
-        CustomIcon(
-          onPressed: onPressed,
-          icon: icon,
-        ),
+        CustomIcon(onPressed: onPressed, icon: icon)
       ],
     );
   }
